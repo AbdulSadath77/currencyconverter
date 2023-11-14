@@ -18,7 +18,6 @@ function App() {
     setAmount(convertedAmount);
   };
   const convert = () => setConvertedAmount(amount * currencyInfo[to]);
-  // convert();
   return (
     <div className="w-full h-screen flex flex-wrap items-center justify-center bg-[url('https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-center bg-cover bg-no-repeat bg-slate-500 bg-blend-multiply">
       <div className="w-full">
